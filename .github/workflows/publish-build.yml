@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       DOCKER_REPO: devrel-docker
-      IMAGE_NAME: myApp
+      IMAGE_NAME: eldad-app
       JF_URL: https://${{ vars.JF_URL }}/
       NPM_VIRTUAL_REPO: devrel-npm
       DOCKER_BUILD_SUMMARY: false
